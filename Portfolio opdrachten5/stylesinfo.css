@@ -1,0 +1,175 @@
+p {
+    color: #B17A56;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.356);
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    /* text-decoration: none; no underline */
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-1 {
+    background-color: #795A4E;
+    color: rgb(255, 255, 255);
+    border-right: 5px rgb(255, 255, 255) solid;
+    border-radius: 40px; /*curverd edge*/
+    border: 5px rgb(255, 255, 255) solid;  /* same as above */
+    /* laatste overruled */
+    padding-top: 5px;           /* padding ruimte content en border*/
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;						/* same as above */
+	/*padding:(x)px; */
+    margin-top:20px; 		/* margin ruimte van de kant */
+	margin:20px 0;
+ }
+
+ .box-2 {
+    background-color: #795A4E;
+    color: rgb(255, 255, 255);
+    border-right: 5px rgb(255, 255, 255) solid;
+    border-radius: 40px; /*curverd edge*/
+    border: 5px rgb(255, 255, 255) solid;  /* same as above */
+    /* laatste overruled */
+    padding-top: 5px;           /* padding ruimte content en border*/
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;						/* same as above */
+	/*padding:(x)px; */
+    margin-top:20px; 		/* margin ruimte van de kant */
+	margin:20px 0;
+ }
+
+ .box-3 {
+    
+    color: rgb(255, 255, 255);
+    border-right: 5px rgb(255, 255, 255) solid;
+    border-radius: 40px; /*curverd edge*/
+    border: 5px rgb(255, 255, 255) solid;  /* same as above */
+    /* laatste overruled */
+    padding-top: 5px;           /* padding ruimte content en border*/
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;						/* same as above */
+	/*padding:(x)px; */
+    margin-top:20px; 		/* margin ruimte van de kant */
+	margin:20px 0;
+ }
+
+ .button{
+	background-color: #333;
+	color:#fff;
+	padding: 10px 15px;
+	border:dotted;
+    margin-left: 50px;
+}
+.button:hover{
+	background:rgb(32, 42, 134);
+	coler: #fff
+
+}
+
+.black-border {
+    border: 5px solid #795A4E;
+    border-radius: 20px;
+    padding-left: 30px;
+    
+}
+#border-background {
+    background-color: #8A827B;
+    
+}
+body{
+    background-color: #DBD4CE;
+}
+
+footer div {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+/* Let's also center the footer nav */
+
+footer nav {
+    padding: 10px;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+}
+
+nav {
+border: 5px solid #795A4E;
+border-radius: 20px;
+padding-left: 30px;
+
+}
+
+ol {
+    margin-left: 25px;
+    color: rgb(130, 15, 15);
+}
+ul {
+    margin-left: 25px;
+}
+
+
+ li a:hover {
+    background-color: #555;
+    color: white;
+    } /* Change the link color on hover */
+    
+    li a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+        ul {
+            list-style-type: none;
+            margin: 50px;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+    }
+    
+    li a {
+        display: block;
+        color:#000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }

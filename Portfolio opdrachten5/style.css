@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+body  {
+    background-color: rgb(81, 96, 134);
+    background-image: url(images/legorollercoaster2jpg.jpg);
+    background-size: cover; /*zorgt dat background mee scaled*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-1{ 
+}
+
+header { 
+    /* background-color: blue; */
+    height: 185px;
+    text-align: center;
+   
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.356);
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    /* text-decoration: none; no underline */
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.359);
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+h1 {
+    font-size: 84px;
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+p {
+    font-size: 18px;
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif
+}
+a {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.youtube {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+
+.block {
+        float: left;
+        width: 33.3%;
+        border: 2px solid #333;
+        margin-top: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 2px;
+        }

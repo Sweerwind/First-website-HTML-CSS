@@ -9,7 +9,7 @@ html {
 }
 
 body  {
-    background-color: rgb(81, 96, 134);
+    background-color: rgb(228, 152, 52);
     background-image: url(images/legorollercoaster2jpg.jpg);
     background-size: cover; /*zorgt dat background mee scaled*/
     background-repeat: no-repeat;
@@ -17,11 +17,11 @@ body  {
 }
 
 .box-1{ 
+    text-align: center;
 }
 
 header { 
-    /* background-color: blue; */
-    height: 185px;
+    height: 50px;
     text-align: center;
    
 }
@@ -32,6 +32,10 @@ nav {
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
+    @media (max-width:$phone){
+        display:block;
+        font-size: 25px;
+    }
 }
 
 nav a {
@@ -43,7 +47,7 @@ nav a {
 }
 
 
-main {
+//main {
     height: 400px;
     text-align: center;
     padding-top: 10px;
@@ -89,11 +93,24 @@ footer p {
     }
 
 .block {
+        display:grid;
+        grid-template-columns: 20% 60% 20%;
         float: left;
+        text-align: center;
         width: 33.3%;
+        height: 33.3%;
         border: 2px solid #333;
         margin-top: 10px;
         padding: 10px;
         box-sizing: border-box;
         margin-bottom: 2px;
         }
+
+        /*media queries*/
+
+       @media only screen and (max-width: 520px){
+        body {
+            background-color: rgb(81, 96, 134);            
+        }
+       }
+
